@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'PP Supply Sans';
+    src: url('fonts/PPSupplySans-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BaikalVAR';
+    src: url('fonts/BaikalVAR-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --theme-color: white;
+    --text-color: #0C2340;
+    --main-color: #4041F6;
+}
+
+body {
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+}
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}

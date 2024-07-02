@@ -75,6 +75,7 @@
 @media (max-width: 768px) {
     
     .top-header {
+        width: 105%;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
     }
 
@@ -89,7 +90,7 @@
         margin-top: 80px;
         flex-direction: column;
         background-color: var(--theme-color);
-        width: 90%;
+        width: 100%;
         overflow: auto;
         position: absolute;
         opacity: 0;

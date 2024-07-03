@@ -35,3 +35,17 @@ h1 {
     color: var(--main-color);
     
 }
+
+p {
+    font-size: 16px;
+}
+
+@media (min-width: 950px) {
+    h1 {
+        font-size: 84px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}

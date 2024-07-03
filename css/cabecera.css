@@ -6,7 +6,7 @@
 
 .container-1 {
     text-align: center;
-    width: 70%;
+    width: 90%;
     background-color: #F1F1FE;
 }
 
@@ -23,8 +23,8 @@
 .container-item {
     display: flex;
     justify-content: center;
-    padding: 13px;
-    margin: 30px;
+    padding: 7px;
+    margin: 20px;
     width: 300px;
     font-size: 24px;
     background-color:blue;

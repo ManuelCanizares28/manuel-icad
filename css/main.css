@@ -24,6 +24,14 @@ body {
     color: var(--text-color);
 }
 a {
+    font-size: 16px;
     text-decoration: none;
     color: var(--text-color);
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    color: var(--main-color);
+    
 }

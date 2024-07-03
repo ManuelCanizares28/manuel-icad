@@ -1,0 +1,37 @@
+.cabeceras {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-1 {
+    text-align: center;
+    width: 70%;
+    background-color: #F1F1FE;
+}
+
+.cabeceras h1 {
+    width: 30px;
+    margin: 30px;
+}
+.cabeceras p {
+    text-align: left;
+    margin: 30px;
+    width: 310px;
+}
+
+.container-item {
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+    margin: 30px;
+    width: 300px;
+    font-size: 24px;
+    background-color:blue;
+    color: #fff;
+}
+
+.img-cabecera {
+    width: 300px;
+    align-self:center;
+}

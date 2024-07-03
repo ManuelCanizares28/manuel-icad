@@ -48,4 +48,8 @@ p {
     p {
         font-size: 20px;
     }
+
+    .container-item {
+        font-size: 10px;
+    }
 }

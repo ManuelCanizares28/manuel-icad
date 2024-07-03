@@ -41,18 +41,10 @@
 
 /* DESKTOP */
 @media (min-width: 950px) {
-    .cabecera {
-        margin-top: 10%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
     
     .container-1 {
         height: 800px;
-        text-align: center;
         width: 97%;
-        background-color: #F1F1FE;
     }
     
     .cabecera h1 {

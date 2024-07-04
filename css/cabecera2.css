@@ -55,7 +55,47 @@
 }
 
 @media (min-width: 950px) {
-    .cabecera-2 img {
+
+    .container-2 {
+        width: 97%;
+        height: 810px;
+    }
+
+    .img-desktop {
+        display: inline;
+        margin-top: 8%;
+        margin-left: 70px;
+    }
+
+    .desktop-version h3 {
+        margin-left: 70px;
+    }
+
+    .desktop-version h1{
+        max-width: 668px;
+        margin-left: 70px;
+    }
+
+    .desktop-version p {
+        max-width: 600px;
+        margin-left: 70px;
+    }
+
+    .desktop-version a {
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+
+    .mobile-version {
         display: none;
     }
+
+    .shoe-purple {
+        display: flex;
+        position: relative;
+        left: 53%;
+        margin-top: -48%;
+        max-width: 940px;
+    }
+
 }

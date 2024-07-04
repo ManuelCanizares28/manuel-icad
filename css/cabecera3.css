@@ -1,0 +1,28 @@
+.cabecera-3 {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-3 {
+    overflow: hidden;
+    width: 90%;
+    height: 600px;
+    background-color:  #232241;
+}
+
+.cabecera-3 h1 {
+    color: var(--background-color);
+    margin-top: 30%;
+    margin-left: 10%;
+    max-width: 300px;
+}
+
+.cabecera-3 img {
+    position: relative;
+    left: 0%;
+    top: -5%;
+    transform: scaleX(-1);
+    max-width: 470px;
+}
+

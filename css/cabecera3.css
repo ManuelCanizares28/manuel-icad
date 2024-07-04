@@ -20,8 +20,8 @@
 
 .cabecera-3 img {
     position: relative;
-    top: -20%;
+    top: -15%;
     transform: scaleX(-1);
-    max-width: 470px;
+    max-width: 490px;
 }
 

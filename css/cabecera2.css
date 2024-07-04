@@ -12,9 +12,12 @@
     overflow: hidden;
 }
 
-.cabecera-2 img {
-    margin-top: 10%;
-    margin-left: 10%;
+.img-mobile {
+    margin: 20px;
+}
+
+.img-desktop {
+    display: none;
 }
 
 .cabecera-2 h3 {
@@ -49,4 +52,10 @@
     top: -10%;
     left: 5%;
     max-width: 420px;
+}
+
+@media (min-width: 950px) {
+    .cabecera-2 img {
+        display: none;
+    }
 }

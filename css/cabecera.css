@@ -38,7 +38,7 @@
 .img-cabecera {
     transform: scaleX(-1);
     position: relative;
-    top: -10%;
+    top: -15%;
     max-width: 300px;
     align-self: center;
 }

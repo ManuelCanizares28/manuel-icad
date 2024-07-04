@@ -13,21 +13,24 @@
 }
 
 .cabecera-2 img {
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 10%;
 }
 
 .cabecera-2 h3 {
-    margin: 30px;
+    text-align: left;
+    margin: 20px;
 }
 
 .cabecera-2 h1 {
-    margin: 30px;
+    text-align: left;
+    margin: 20px;
 }
 
 .cabecera-2 p {
     max-width: 312px;
-    margin: 30px;
+    text-align: left;
+    margin: 20px;
 }
 
 .cabecera-2 a {
@@ -43,7 +46,7 @@
 
 .shoe-purple {
     position: relative;
-    top: -13%;
+    top: -5%;
     left: 5%;
     max-width: 420px;
 }

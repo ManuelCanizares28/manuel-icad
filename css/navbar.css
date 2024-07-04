@@ -76,7 +76,7 @@
 
     /* Menu */
     .menu{
-        height: 90%;
+        height: 510px;
         display: flex;
         align-items: flex-start;
         margin-block-start: 0px;
@@ -141,7 +141,7 @@
         height: 40px;
         margin-left: 20px;
         position: relative;
-        top: 25%;
+        top: 15%;
         background-color: var(--theme-color);
     }
 

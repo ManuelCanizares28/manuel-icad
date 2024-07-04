@@ -9,7 +9,7 @@
 .container-1 {
     text-align: center;
     width: 90%;
-    background-color: #F1F1FE;
+    background-color: var(--background-color);
 }
 
 .cabecera h1 {
@@ -25,11 +25,11 @@
 .container-item {
     display: flex;
     justify-content: center;
-    padding: 7px;
+    padding: 20px;
     margin: 20px;
     max-width: 300px;
-    font-size: 24px;
-    background-color:blue;
+    font-size: 16px;
+    background-color: var(--main-color);
     color: #fff;
 }
 

@@ -1,0 +1,48 @@
+.cabecera-2 {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-2 {
+    width: 90%;
+    background-color: var(--background-color);
+    height: 800px;
+    overflow: hidden;
+}
+
+.cabecera-2 img {
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.cabecera-2 h3 {
+    margin-left: 10%;
+}
+
+.cabecera-2 h1 {
+    margin-left: 10%;
+}
+
+.cabecera-2 p {
+    max-width: 312px;
+    margin-left: 10%;
+}
+
+.cabecera-2 a {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    font-size: 16px;
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.shoe-purple {
+    position: relative;
+    top: -10%;
+    max-width: 450px;
+}

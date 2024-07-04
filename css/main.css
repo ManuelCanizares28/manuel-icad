@@ -16,6 +16,7 @@
     --theme-color: white;
     --text-color: #0C2340;
     --main-color: #4041F6;
+    --background-color: #F1F1FE;
 }
 
 body {
@@ -39,6 +40,7 @@ h1 {
 p {
     font-size: 16px;
 }
+
 
 @media (min-width: 950px) {
     h1 {

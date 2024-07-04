@@ -57,10 +57,9 @@
     border: none;
 }
 
-.open-menu, .close-menu {
+.open-menu, .close-menu, .leng {
     display: none;
 }
-
 
 /*Version Mobile*/
 @media (max-width: 768px) {
@@ -135,13 +134,13 @@
     }
 
     .leng {
+        display: block;
         width: 90px;
         height: 40px;
         margin-left: 20px;
         position: relative;
         top: 35%;
         background-color: var(--theme-color);
-        
     }
 
     .menu_opened {

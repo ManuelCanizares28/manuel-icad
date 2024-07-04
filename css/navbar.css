@@ -135,11 +135,13 @@
 
     .leng {
         display: block;
+        border: 2px solid #000;
+        color: var(--text-color);
         width: 90px;
         height: 40px;
         margin-left: 20px;
         position: relative;
-        top: 35%;
+        top: 25%;
         background-color: var(--theme-color);
     }
 

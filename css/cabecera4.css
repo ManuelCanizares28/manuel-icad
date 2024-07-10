@@ -90,15 +90,18 @@
         left: 40%;
         min-width: 1200px;
     }
+    .container-a {
+        display: flex;
+        margin-left: 3%;
+    }
 
     .interested {
-        margin-left: 5%;
+        min-width: 300px;
+        margin-top: 5px;
     }
 
     .plans {
-        position: absolute;
-        left: 35%;
-        top: 483%;
+        padding: 25px;
     }
 
 

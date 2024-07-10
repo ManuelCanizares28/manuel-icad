@@ -1,0 +1,58 @@
+.cabecera-4 {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-4 {
+    max-width: 90%;
+    background-color: var(--background-color);
+    height: 800px;
+    overflow: hidden;
+}
+
+.logo-container {
+    margin-top: 20%;
+    margin-left: 25px;
+}
+
+.cabecera-4 h3 {
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.cabecera-4 h1 {
+    max-width: 250px;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+
+.cabecera-4 p {
+    margin-left: 25px;
+    max-width: 300px;
+}
+
+.interested{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    margin-bottom: 0px;
+    background-color: var(--main-color);
+    max-width: 300px;
+    padding: 20px;
+    color: #fff;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
+.img-container {
+    position: relative;
+    left: 15%;
+    max-width: 400px;
+}

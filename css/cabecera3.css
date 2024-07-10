@@ -15,13 +15,48 @@
     color: var(--background-color);
     margin-top: 30%;
     margin-left: 10%;
+    margin-bottom: 0px;
     max-width: 300px;
 }
 
 .cabecera-3 img {
     position: relative;
-    top: -15%;
+    top: -3%;
+    right: 7%;
     transform: scaleX(-1);
     max-width: 490px;
+}
+
+@media (min-width: 950px) {
+    .cabecera-3 {
+        margin-top: 15%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container-3 {
+        display: flex;
+        overflow: hidden;
+        width: 97%;
+        height: 810px;
+        background-color:  #232241;
+    }
+    
+    .cabecera-3 h1 {
+        color: var(--background-color);
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-bottom: 0px;
+        max-width: 300px;
+    }
+    
+    .cabecera-3 img {
+        position: relative;
+        top: -20%;
+        transform: scaleX(-1);
+        min-width: 1300px;
+        height: 1300px;
+    }
 }
 

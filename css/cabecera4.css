@@ -56,3 +56,51 @@
     left: 15%;
     max-width: 400px;
 }
+
+@media (min-width: 950px) {
+
+    .container-4 {
+        min-width: 97%;
+        height: 730px;
+    }
+
+    .logo-container {
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 160px;
+    }
+
+    .cabecera-4 h3 {
+        margin-left: 5%;
+    }
+    .cabecera-4 h1 {
+        margin-left: 5%;
+        min-width: 500px;
+    }
+
+    .cabecera-4 p {
+        min-width: 450px;
+        margin-left: 5%;
+    }
+
+    .img-container {
+        display: flex;
+        position: relative;
+        top: -110%;
+        left: 40%;
+        min-width: 1200px;
+    }
+
+    .interested {
+        margin-left: 5%;
+    }
+
+    .plans {
+        position: absolute;
+        left: 35%;
+        top: 483%;
+    }
+
+
+    
+}

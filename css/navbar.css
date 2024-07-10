@@ -61,6 +61,10 @@
     display: none;
 }
 
+.products {
+    display: none;
+}
+
 /*Version Mobile*/
 @media (max-width: 768px) {
     
@@ -76,7 +80,9 @@
 
     /* Menu */
     .menu{
-        height: 530px;
+        position: absolute;
+        z-index: 2;
+        height: 700px;
         display: flex;
         align-items: flex-start;
         margin-block-start: 0px;
@@ -86,7 +92,6 @@
         background-color: var(--theme-color);
         width: 91%;
         overflow: auto;
-        position: absolute;
         opacity: 0;
         pointer-events: none;
         transition: opacity 0.3s;
@@ -149,4 +154,15 @@
         opacity: 1;
         pointer-events: all;
     }
+
+
+    .products {
+        opacity: 0;
+       flex-direction: column;
+    }
+
+    .show {
+        opacity: 1;
+    }
+    
 }

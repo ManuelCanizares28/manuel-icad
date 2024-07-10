@@ -38,6 +38,7 @@
 .img-cabecera {
     transform: scaleX(-1);
     position: relative;
+    z-index: 1;
     top: -5%;
     max-width: 300px;
     align-self: center;
@@ -51,6 +52,7 @@
         height: 800px;
         width: 97%;
     }
+
     
     
     .cabecera h1 {

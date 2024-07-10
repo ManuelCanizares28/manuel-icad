@@ -8,3 +8,13 @@ function toggleMenu() {
 
 openMenuBTN.addEventListener('click', toggleMenu);
 closeMenuBTN.addEventListener('click', toggleMenu);
+
+
+const productsBTN = document.getElementById('productsButton');
+const products = document.getElementById('productsSection');
+
+function showProducts() {
+    products.classList.toggle("show");
+}
+
+productsBTN.addEventListener('click', showProducts);

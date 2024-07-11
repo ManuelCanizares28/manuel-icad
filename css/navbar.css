@@ -157,12 +157,11 @@
 
 
     .products {
-        opacity: 0;
-       flex-direction: column;
+        flex-direction: column;
     }
 
-    .show {
-        opacity: 1;
+    .show.products {
+        display: block;
     }
     
 }

@@ -28,6 +28,7 @@ a {
     font-size: 16px;
     text-decoration: none;
     color: var(--text-color);
+    cursor: pointer;
 }
 
 h1 {

@@ -9,12 +9,11 @@ function toggleMenu() {
 openMenuBTN.addEventListener('click', toggleMenu);
 closeMenuBTN.addEventListener('click', toggleMenu);
 
-
-const productsBTN = document.getElementById('productsButton');
-const products = document.getElementById('productsSection');
+const productsBTN = document.querySelector(".selected");
+const productsSection = document.querySelector(".products");
 
 function showProducts() {
-    products.classList.toggle("show");
+    productsSection.classList.toggle("show");
 }
 
-productsBTN.addEventListener('click', showProducts);
+productsBTN.addEventListener('click', showProducts)

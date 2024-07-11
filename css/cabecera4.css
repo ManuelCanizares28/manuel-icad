@@ -1,5 +1,6 @@
 .cabecera-4 {
     margin-top: 15%;
+    margin-bottom: 5%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -62,6 +63,7 @@
     .container-4 {
         min-width: 97%;
         height: 730px;
+        margin-bottom: 5%;
     }
 
     .logo-container {
@@ -103,7 +105,4 @@
     .plans {
         padding: 25px;
     }
-
-
-    
 }

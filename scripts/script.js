@@ -28,7 +28,7 @@ function showContainer() {
 
 shoeBTN.addEventListener('click', showContainer);
 
-const assistanceBTN = document.querySelector(".assistance");
+const assistanceBTN = document.querySelector(".chevron-assistance");
 const supportSection = document.querySelector(".support");
 
 function showSupport() {

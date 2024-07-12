@@ -28,6 +28,15 @@ function showContainer() {
 
 shoeBTN.addEventListener('click', showContainer);
 
+const assistanceBTN = document.querySelector(".assistance");
+const supportSection = document.querySelector(".support");
+
+function showSupport() {
+    supportSection.classList.toggle("show-support");
+}
+
+assistanceBTN.addEventListener('click', showSupport);
+
 
 
 

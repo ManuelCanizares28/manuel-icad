@@ -55,4 +55,8 @@ p {
     .container-item {
         font-size: 10px;
     }
+
+    .container-footer {
+        display: none;
+    }
 }

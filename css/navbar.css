@@ -69,8 +69,6 @@
 
 }
 
-
-
 /*Version Mobile*/
 @media (max-width: 768px) {
     
@@ -185,9 +183,17 @@
         max-height: 1300px;
     }
 
+
     .container-products {
-        display: flex;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s;
         flex-direction: column;
+    }
+
+    .show-container.container-products {
+        display: block;
+        max-height: 1300px;
     }
 
     .container-products img {
@@ -225,6 +231,7 @@
         line-height: 0px;
         padding: 15px;
         background-color: var(--background-color);
+        color: var(--main-color);
         font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
     }
 

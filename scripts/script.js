@@ -16,4 +16,19 @@ function showProducts() {
     productsSection.classList.toggle("show");
 }
 
-productsBTN.addEventListener('click', showProducts)
+productsBTN.addEventListener('click', showProducts);
+
+
+const shoeBTN = document.querySelector(".shoe-design-BTN");
+const productsContainer = document.querySelector(".container-products");
+
+function showContainer() {
+    productsContainer.classList.toggle("show-container");
+}
+
+shoeBTN.addEventListener('click', showContainer);
+
+
+
+
+
